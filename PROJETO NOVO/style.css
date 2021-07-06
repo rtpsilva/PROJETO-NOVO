@@ -1,0 +1,70 @@
+ *{
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ a{
+ 	text-decoration: none;
+ 	color: black;
+ }
+
+ body{
+ 	font-family: arial black;
+ 	background: url(capa.png);
+ 	background-size: 100%
+
+ }
+ 
+ ul{
+ 	list-style: none;
+ }
+ 
+ img{
+ 	width: 30px;
+ }
+
+ input[type="checkbox"]
+{
+	display: none;
+ }
+
+ nav
+ {
+ 	background-color: rgba(144,238,150,.4);
+ 	width: 350px;
+ 	height: 100%;
+ 	left: -350px;
+ 	position: absolute;
+ 	transition: all 0s
+ }
+
+ input[type="checkbox"]:checked ~ nav
+{
+	transform: translateX(350px);
+}
+ 
+ ul{
+ 	
+ 	top: 70px;
+ 	position: absolute;
+ 	width: 100%
+ }
+
+ a{
+ 	background-color: green; 
+ 	display: block;
+ 	padding: 5px 0px;
+ 	color: white;
+ }
+
+ a:hover {
+ 	background-color: rgb(176,224,230);
+ 	color: black;
+ }
+
+label{
+	
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+}
